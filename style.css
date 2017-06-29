@@ -9,6 +9,11 @@ body,html {
   font-family: sans-serif;
 }
 
+.row__description {
+  text-align: center;
+  color: white;
+}
+
 .keys {
   display: flex;
   align-items: center;

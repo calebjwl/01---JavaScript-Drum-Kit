@@ -6,7 +6,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <div class="keys">
+    <div data-key="81" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">Voyage</span>
+    </div>
+    <div data-key="87" class="key">
+      <kbd>W</kbd>
+      <span class="sound">Heart &amp; Soul</span>
+    </div>
+    <div data-key="69" class="key">
+      <kbd>E</kbd>
+      <span class="sound">Gameboy</span>
+    </div>
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">Murky</span>
+    </div>
+    <div data-key="84" class="key">
+      <kbd>T</kbd>
+      <span class="sound">Guitar</span>
+    </div>
+    <div data-key="89" class="key">
+      <kbd>Y</kbd>
+      <span class="sound">Rhodes</span>
+    </div>
+  </div>
 
   <div class="keys">
     <div data-key="65" class="key">
@@ -15,7 +40,7 @@
     </div>
     <div data-key="83" class="key">
       <kbd>S</kbd>
-      <span class="sound">clap</span>
+      <span class="sound">808</span>
     </div>
     <div data-key="68" class="key">
       <kbd>D</kbd>
@@ -31,26 +56,24 @@
     </div>
     <div data-key="72" class="key">
       <kbd>H</kbd>
-      <span class="sound">ride</span>
-    </div>
-    <div data-key="74" class="key">
-      <kbd>J</kbd>
-      <span class="sound">tom</span>
-    </div>
-    <div data-key="75" class="key">
-      <kbd>K</kbd>
-      <span class="sound">tink</span>
+      <span class="sound">FX</span>
     </div>
   </div>
 
+
+  <audio data-key="81" src="sounds/backing-tracks/voyage.wav"></audio>
+  <audio data-key="87" src="sounds/backing-tracks/heart&amp;soul.wav"></audio>
+  <audio data-key="69" src="sounds/backing-tracks/gameboy.wav"></audio>
+  <audio data-key="82" src="sounds/backing-tracks/water.wav"></audio>
+  <audio data-key="84" src="sounds/backing-tracks/gtr-bridge.wav"></audio>
+  <audio data-key="89" src="sounds/backing-tracks/rhodes-piano.wav"></audio>
+
   <audio data-key="65" src="sounds/dna-kick.wav"></audio>
-  <audio data-key="83" src="sounds/humble-clap.wav"></audio>
-  <audio data-key="68" src="sounds/xxx-snare.wav"></audio>
+  <audio data-key="83" src="sounds/humble-808.wav"></audio>
+  <audio data-key="68" src="sounds/glass-snare.wav"></audio>
   <audio data-key="70" src="sounds/thunder-hihat.wav"></audio>
   <audio data-key="71" src="sounds/mac-openhat.wav"></audio>
   <audio data-key="72" src="sounds/shuffle-fx.wav"></audio>
-  <audio data-key="74" src="sounds/backing-tracks/voyage.wav"></audio>
-  <audio data-key="75" src="sounds/shuffle-.wav"></audio>
 
 <script>
   function playSound(e) {

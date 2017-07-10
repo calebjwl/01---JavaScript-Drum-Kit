@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(img/plain-grey-bg.png) center;
   background-size: cover;
 }
 body,html {
@@ -21,22 +21,24 @@ body,html {
 }
 
 .key {
+  background: url(img/pad.png);
+  background-size: contain;
   border: .4rem solid black;
   border-radius: .5rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
+  height: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #47e0e0;
-    box-shadow: 0 0 1rem #47e0e0;
+  border-color: #fff;
+    box-shadow: 0 0 1rem #fff;
 }
 
 kbd {

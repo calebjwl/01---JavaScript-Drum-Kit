@@ -7,7 +7,8 @@ html {
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
 }
 
 kbd {
@@ -15,6 +16,13 @@ kbd {
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.title {
+  font-size: 8rem;
+  color: white;
+  text-align: center;
 }
 
 .row__description {
@@ -39,7 +47,6 @@ kbd {
   transition: all .07s ease;
   width: 10rem;
   height: 10rem;
-  text-align: center;
   color: white;
   text-shadow: 0 0 .5rem black;
 }
@@ -52,9 +59,7 @@ kbd {
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #fff;
-    box-shadow: 0 0 1rem #fff;
+  transform: scale(1.05);
 }
 
 kbd {
@@ -64,7 +69,6 @@ kbd {
 
 .sound {
   font-size: 1.2rem;
-  text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
 }

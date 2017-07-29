@@ -12,6 +12,8 @@ body,html {
 }
 
 kbd {
+  display: block;
+  font-size: 4rem;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -19,8 +21,9 @@ kbd {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.title {
-  text-align: center;
+.title__image {
+  display: block;
+  margin: 0 auto;
 }
 
 .row__description {
@@ -38,7 +41,7 @@ kbd {
   position: relative;
   background: url(img/pad.png);
   background-size: contain;
-  border: .4rem solid black;
+  border: .1rem solid black;
   border-radius: .5rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
@@ -60,13 +63,14 @@ kbd {
   transform: scale(1.05);
 }
 
-kbd {
-  display: block;
-  font-size: 4rem;
-}
-
 .sound {
   font-size: 1.2rem;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+@media (min-width: 320px) and (max-width: 850px) {
+  .title__image {
+    width: 40rem;
+  }
 }
